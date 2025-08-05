@@ -11,6 +11,7 @@ import ErrorPage from './Components/ErrorPage'
 const routers = createBrowserRouter([
   {path: '/', element: <Layout />, children: [
     {index:true , element: <Home /> },
+    {path: '/React-Tailwind-App/' , element: <Home /> },
     {path: '/Contact', element: <Contact /> },
     {path: '/Portfolio', element: <Portfolio /> },
     {path: '*', element: <ErrorPage /> },
